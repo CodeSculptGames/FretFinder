@@ -43,14 +43,14 @@
     {
       "src": "images/icon-any.png",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ],
   "shortcuts": [
     {
-      "name": "FretFinder",
-      "url": "",
-      "description": "FretFinder is a web application that displays fretboard notes of a guitar and other stringed instruments. It allows you to modify the tuning by clicking on an open string to quickly adjust the pitch, making it useful as a visual reference for finding notes and chords while using alternate tunings."
+      "name": "Open FretFinder",
+      "url": "/",
+      "description": "Jump straight into FretFinder"
     }
   ]
 }
