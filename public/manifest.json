@@ -1,12 +1,12 @@
 {
   "background_color": "#ffffff",
-  "description": "Nobody breaks into your house and tries to steal your stuff without a lead shower - it’s time to Shoot Robbers! One of the most thrilling and hauntingly realistic titles from our action category, this game sets you up in a crow’s nest overlooking your own home. You’ve taken your position and loaded your gun. Now all that is left to do is wait for those cowardly little criminals to walk in front of a window",
+  "description": "FretFinder is a web application that displays fretboard notes of a guitar and other stringed instruments. It allows you to modify the tuning by clicking on an open string to quickly adjust the pitch, making it useful as a visual reference for finding notes and chords while using alternate tunings.",
   "dir": "ltr",
   "display": "standalone",
-  "name": "Shoot-Robbers",
+  "name": "FretFinder",
   "orientation": "any",
   "scope": "/",
-  "short_name": "Shoot-Robbers",
+  "short_name": "FretFinder",
   "start_url": "/",
   "theme_color": "#ffffff",
   "categories": [
@@ -48,9 +48,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Shoot-Robbers",
+      "name": "FretFinder",
       "url": "",
-      "description": "Nobody breaks into your house and tries to steal your stuff without a lead shower - it’s time to Shoot Robbers! One of the most thrilling and hauntingly realistic titles from our action category, this game sets you up in a crow’s nest overlooking your own home. You’ve taken your position and loaded your gun. Now all that is left to do is wait for those cowardly little criminals to walk in front of a window"
+      "description": "FretFinder is a web application that displays fretboard notes of a guitar and other stringed instruments. It allows you to modify the tuning by clicking on an open string to quickly adjust the pitch, making it useful as a visual reference for finding notes and chords while using alternate tunings."
     }
   ]
 }
