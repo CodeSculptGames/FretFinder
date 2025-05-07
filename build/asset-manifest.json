@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fretfinder/static/css/main.cca8b406.css",
-    "main.js": "/fretfinder/static/js/main.68da09ca.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/fretfinder/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/fretfinder/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/fretfinder/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/fretfinder/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/fretfinder/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/fretfinder/index.html",
-    "main.cca8b406.css.map": "/fretfinder/static/css/main.cca8b406.css.map",
-    "main.68da09ca.js.map": "/fretfinder/static/js/main.68da09ca.js.map"
+    "main.css": "/FretFinder/static/css/main.98d276fd.css",
+    "main.js": "/FretFinder/static/js/main.68da09ca.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/FretFinder/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/FretFinder/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/FretFinder/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/FretFinder/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/FretFinder/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/FretFinder/index.html",
+    "main.98d276fd.css.map": "/FretFinder/static/css/main.98d276fd.css.map",
+    "main.68da09ca.js.map": "/FretFinder/static/js/main.68da09ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.cca8b406.css",
+    "static/css/main.98d276fd.css",
     "static/js/main.68da09ca.js"
   ]
 }
