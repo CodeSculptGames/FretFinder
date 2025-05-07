@@ -1,0 +1,268 @@
+:root {
+  --main-background-color: #0e5394;
+  --settings-background-color: #072c4b;
+  --settings-btn-background-color: #daedfb;
+  --dropdown-btn-background-color: #041e33;
+  --dropdown-btn-hover-background-color: #00000076;
+
+  --btn-font-color: #052139;
+  --dropdown-btn-font-color: #daedfb;
+  --settings-font-color: #dedede;
+
+  --menu-item-size: 14.5rem;
+}
+
+/* ------ Header ------ */
+
+header {
+  position: fixed;
+  display: flex;
+  padding: 1.3rem 1rem;
+  padding-bottom: 0.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--main-background-color);
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.flex-right {
+  display: flex;
+  gap: 1.5rem;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 0.357rem + 5.714vw, 2.5rem);
+  font-family: 'Caveat', cursive;
+}
+
+/* ------ Fa Icons ------ */
+
+.fa {
+  position: relative;
+  font-size: clamp(1.5rem, 0.357rem + 5.714vw, 2.5rem) !important;
+  user-select: none;
+}
+
+.fa-times {
+  z-index: 4;
+  color: var(--settings-btn-background-color);
+}
+
+/* ------ Settings Menu ------ */
+
+.settings-menu {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: var(--settings-background-color);
+  font-size: 1.3rem;
+  padding: 1rem;
+  padding-top: 1.2rem;
+  overflow: scroll;
+  z-index: 3;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.settings-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-open {
+  display: block;
+}
+
+.settings-menu h2,
+.settings-menu h3 {
+  max-width: var(--menu-item-size);
+  margin: auto;
+  letter-spacing: 3px;
+}
+
+.settings-menu h2 {
+  padding-top: 0.25rem;
+  padding-bottom: 1.5rem;
+}
+
+.settings-menu h3 {
+  padding-block: 1rem 1.75rem;
+  font-size: 1.3rem;
+}
+
+.settings-menu p,
+.tuning-presets button {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* ------ Buttons ------ */
+
+.dropdown {
+  max-width: var(--menu-item-size);
+  margin: auto;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.settings-menu button {
+  width: 100%;
+  background-color: var(--settings-btn-background-color);
+  border: none;
+  padding: 0.75rem;
+  color: var(--btn-font-color);
+  text-transform: capitalize;
+}
+
+.menu-item {
+  padding-bottom: 1rem;
+}
+
+/* ------ First Button ------  */
+.dropdown > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown > button p:last-of-type {
+  font-size: 0.6rem;
+}
+
+/* ------ Dropdown Button ------  */
+
+.dropdown-menu button {
+  background-color: var(--dropdown-btn-background-color);
+  color: var(--dropdown-btn-font-color);
+  text-align: left;
+  border-radius: unset;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu button p {
+  font-size: 0.6rem;
+}
+
+.dropdown-menu button:last-of-type {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+/* ------ Presets ------ */
+
+.tuning-presets {
+  display: grid;
+  gap: 0.5rem;
+  max-width: var(--menu-item-size);
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.tuning-presets button {
+  font-size: 0.6rem;
+  text-align: left;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1.5px;
+}
+
+@media (hover: hover) {
+  h1:hover {
+    cursor: default;
+  }
+
+  .fa:hover,
+  button:hover {
+    cursor: pointer;
+  }
+
+  .fa:hover {
+    color: #b7dffc;
+  }
+
+  .fa-times:hover {
+    color: var(--main-background-color);
+  }
+
+  .settings-menu button:hover {
+    background-color: var(--main-background-color);
+    color: #fff;
+  }
+
+  .dropdown-menu button:hover {
+    background-color: var(--dropdown-btn-hover-background-color);
+  }
+}
+
+@media only screen and (min-width: 50rem) {
+  /* ------ Resets ------ */
+
+  header {
+    right: unset;
+    align-items: unset;
+  }
+
+  .settings-menu {
+    position: unset;
+    padding: 0;
+  }
+
+  /* ------ Header ------ */
+
+  header {
+    background-color: var(--settings-background-color);
+    bottom: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 18rem;
+    border-right: 5px solid rgba(0, 0, 0, 0.198);
+    gap: 1rem;
+  }
+
+  .flex-right {
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+  }
+
+  h1 {
+    padding-left: 0.5rem;
+  }
+
+  .pitch-direction {
+    z-index: 2;
+  }
+
+  .menu {
+    display: none;
+    opacity: 0;
+  }
+
+  /* ------ Settings Menu ------ */
+
+  .settings-menu {
+    background-color: transparent;
+    display: block;
+  }
+
+  .settings-menu h2,
+  .settings-menu h3 {
+    display: none;
+  }
+
+  .menu-item:last-of-type {
+    padding-top: 1rem;
+  }
+}

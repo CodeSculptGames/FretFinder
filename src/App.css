@@ -1,0 +1,38 @@
+.App {
+  touch-action: manipulation;
+}
+
+main {
+  padding-block: 5rem 2rem;
+  background-color: #0e5394;
+}
+
+.landscape main {
+  padding-block: 8rem 4rem;
+  padding-inline: 0.5rem;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.landscape main::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 50rem) {
+  main {
+    padding-top: 2rem;
+    margin-left: 18rem;
+  }
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  z-index: 1000;
+  pointer-events: none;
+}

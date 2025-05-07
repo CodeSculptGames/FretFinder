@@ -1,0 +1,18 @@
+.fretboard {
+  display: flex;
+  width: fit-content;
+  border: 0.5rem solid #031322;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+  margin: auto;
+}
+
+.left-handed {
+  flex-direction: row-reverse;
+}
+
+/* -------------------- Landscape Mode -------------------- */
+
+.landscape .fretboard {
+  flex-direction: column-reverse;
+}
