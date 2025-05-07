@@ -38,12 +38,14 @@
     {
       "src": "images/icon-512x512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any"
     },
     {
-      "src": "images/icon-any.png",
+      "src": "images/icon-512x512-maskable.png",
       "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "shortcuts": [
